@@ -7,8 +7,14 @@ A **full-stack web application** for managing and showcasing helmet products. Bu
 ## 🚀 Live Demo
 
 > 🗼️ Demo GIFs & Screenshots
+> ### 🌗 Theme Toggle
+![Dark Mode](docs/darkmode(1).gif)
+
 ### 🔐 Signup & Login
 ![Signup & Login](docs/signup_login_databaseupdate.gif)
+
+### ✅ Checkout/Login Check
+![Checkout/Login Check](docs/checkoutlogincheck.gif)
 
 ### ➕ Add Product
 ![Add Product](docs/add_product.gif)
@@ -20,8 +26,7 @@ A **full-stack web application** for managing and showcasing helmet products. Bu
 ![Delete from Cart](docs/delete_cart.gif)
 ![Cart Function](docs/cartdinction.gif)
 
-### 🌗 Theme Toggle
-![Dark Mode](docs/darkmode(1).gif)
+
 
 ### ✅ Checkout/Login Check
 ![Checkout/Login Check](docs/checkoutlogincheck.gif)

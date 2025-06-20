@@ -3,10 +3,7 @@
 A **full-stack web application** for managing and showcasing helmet products. Built using **React**, it features secure authentication, product management, image uploads, shopping cart, and a sleek modern UI.
 
 ---
-
-## 🚀 Live Demo
-
-> 🗼️ Demo GIFs & Screenshots
+>                                                                                          🗼️ Demo GIFs & Screenshots
 > ### 🌗 Theme Toggle
 ![Dark Mode](docs/darkmode(1).gif)
 

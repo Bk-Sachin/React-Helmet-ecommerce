@@ -1,9 +1,5 @@
-# 🛡️ Surround-Helm
-
-A **full-stack web application** for managing and showcasing helmet products. Built using **React**, it features secure authentication, product management, image uploads, shopping cart, and a sleek modern UI.
-
----
->                                                                                          🗼️ Demo GIFs & Screenshots
+# 🛡️ Surround-Helmet-ecommerce Website
+> ---------🗼️ Demo GIFs & Screenshots--------------
 > ### 🌗 Theme Toggle
 ![Dark Mode](docs/darkmode(1).gif)
 

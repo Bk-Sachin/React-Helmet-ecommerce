@@ -1,5 +1,5 @@
 # 🛡️ Surround-Helmet-ecommerce Website
->-------------------------------🗼️ Demo GIFs & Screenshots-------------------------------
+>------------------------------------------🗼️ Demo GIFs & Screenshots------------------------------------------
 > ### 🌗 Theme Toggle
 ![Dark Mode](docs/darkmode(1).gif)
 

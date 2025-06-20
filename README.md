@@ -21,7 +21,7 @@ A **full-stack web application** for managing and showcasing helmet products. Bu
 ![Cart Function](docs/cartdinction.gif)
 
 ### 🌗 Theme Toggle
-![Dark Mode](docs/darkmode.gif)
+![Dark Mode](docs/darkmode(1).gif)
 
 ### ✅ Checkout/Login Check
 ![Checkout/Login Check](docs/checkoutlogincheck.gif)

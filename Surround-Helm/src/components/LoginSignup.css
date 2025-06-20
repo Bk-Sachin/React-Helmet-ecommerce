@@ -1,0 +1,402 @@
+/* src/components/LoginSignup.css */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+.losign-body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  margin-top: 80px; /* Account for fixed navbar */
+}
+
+.losign-body.dark-mode {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #f6f5f7;
+}
+
+.losign-body h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.losign-body.dark-mode h2 {
+  color: #f6f5f7;
+}
+
+.losign-form-container h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.losign-overlay-panel p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+
+.losign-form-container span {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.losign-container a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: color 0.3s ease;
+}
+
+.losign-container a:hover {
+  color: #ff4b2b;
+}
+
+.losign-body.dark-mode .losign-form-container a {
+  color: #ccc;
+}
+
+.losign-body.dark-mode .losign-form-container a:hover {
+  color: #ff4b2b;
+}
+
+.losign-container button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.losign-container button:hover {
+  background-color: #ff3742;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 75, 43, 0.4);
+}
+
+.losign-container button:active {
+  transform: scale(0.95);
+}
+
+.losign-container button:focus {
+  outline: none;
+}
+
+.losign-container button.losign-ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+.losign-container button.losign-ghost:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.losign-form-container form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.losign-body.dark-mode .losign-form-container form {
+  background-color: #2c2c2c;
+  color: #f6f5f7;
+}
+
+.losign-body.dark-mode .losign-form-container h1 {
+  color: #f6f5f7;
+}
+
+/* Password input wrapper styling */
+.losign-password-input-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.losign-form-container input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.losign-form-container input:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px rgba(255, 75, 43, 0.2);
+}
+
+.losign-form-container input:not(.losign-password-input-wrapper input) {
+  margin: 8px 0;
+}
+
+/* Styling for the password toggle icon */
+.losign-password-toggle-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #777;
+  z-index: 10;
+  transition: color 0.3s ease;
+}
+
+.losign-password-toggle-icon:hover {
+  color: #ff4b2b;
+}
+
+.losign-body.dark-mode .losign-password-toggle-icon {
+  color: #aaa;
+}
+
+.losign-body.dark-mode .losign-form-container input {
+  background-color: #444;
+  color: #f6f5f7;
+}
+
+.losign-body.dark-mode .losign-form-container input:focus {
+  background-color: #555;
+  box-shadow: 0 0 0 2px rgba(255, 75, 43, 0.3);
+}
+
+.losign-container {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  width: 900px;
+  max-width: 100%;
+  min-height: 600px;
+  z-index: 1;
+}
+
+.losign-body.dark-mode .losign-container {
+  background-color: #222;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.losign-form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.losign-sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.losign-container.losign-right-panel-active .losign-sign-in-container {
+  transform: translateX(100%);
+}
+
+.losign-sign-up-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.losign-container.losign-right-panel-active .losign-sign-up-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
+}
+
+@keyframes show {
+  0%,
+  49.99% {
+    opacity: 0;
+    z-index: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+.losign-overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.losign-container.losign-right-panel-active .losign-overlay-container {
+  transform: translateX(-100%);
+}
+
+.losign-overlay {
+  background: linear-gradient(135deg, #ff4b2b 0%, #ff416c 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.losign-container.losign-right-panel-active .losign-overlay {
+  transform: translateX(50%);
+}
+
+.losign-overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.losign-overlay-panel h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.losign-overlay-left {
+  transform: translateX(-20%);
+}
+
+.losign-container.losign-right-panel-active .losign-overlay-left {
+  transform: translateX(0);
+}
+
+.losign-overlay-right {
+  right: 0;
+  transform: translateX(0);
+}
+
+.losign-container.losign-right-panel-active .losign-overlay-right {
+  transform: translateX(20%);
+}
+
+.losign-social-container {
+  margin: 20px 0;
+}
+
+.losign-social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease;
+}
+
+.losign-social-container a:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.losign-body.dark-mode .losign-social-container a {
+  border-color: #666;
+}
+
+.losign-body.dark-mode .losign-social-container a:hover {
+  background-color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .losign-body {
+    padding: 1rem;
+    margin-top: 60px;
+  }
+  
+  .losign-container {
+    width: 100%;
+    min-height: 500px;
+  }
+  
+  .losign-form-container form {
+    padding: 0 30px;
+  }
+  
+  .losign-overlay-panel {
+    padding: 0 20px;
+  }
+  
+  .losign-overlay-panel h1 {
+    font-size: 2rem;
+  }
+  
+  .losign-form-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .losign-container {
+    min-height: 450px;
+  }
+  
+  .losign-form-container form {
+    padding: 0 20px;
+  }
+  
+  .losign-overlay-panel {
+    padding: 0 15px;
+  }
+  
+  .losign-overlay-panel h1 {
+    font-size: 1.5rem;
+  }
+  
+  .losign-form-container h1 {
+    font-size: 1.3rem;
+  }
+  
+  .losign-container button {
+    padding: 10px 30px;
+    font-size: 11px;
+  }
+}

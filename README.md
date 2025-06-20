@@ -103,4 +103,7 @@ Surround-Helm/
 Contributions are welcome! Please fork the repo, create a branch, and submit a pull request.
 
 > For major changes, open an issue first to discuss the proposed improvement.
+>
+> ✨ Show Your Support
+If you find this project useful or interesting, please consider starring ⭐ it on GitHub — it helps others discover it and keeps the project growing!
 

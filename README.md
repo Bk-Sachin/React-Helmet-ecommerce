@@ -7,7 +7,7 @@ A **full-stack web application** for managing and showcasing helmet products. Bu
 ## 🚀 Live Demo
 
 > 🗼️ Demo GIFs & Screenshots
->
+### 🔐 Signup & Login
 ![Signup & Login](docs/signup_login_databaseupdate.gif)
 
 ### ➕ Add Product
@@ -25,7 +25,6 @@ A **full-stack web application** for managing and showcasing helmet products. Bu
 
 ### ✅ Checkout/Login Check
 ![Checkout/Login Check](docs/checkoutlogincheck.gif)
-
 ---
 
 ## 📋 Table of Contents
@@ -35,7 +34,6 @@ A **full-stack web application** for managing and showcasing helmet products. Bu
 * [🛠️ Usage](#️-usage)
 * [📚 API Endpoints](#-api-endpoints)
 * [🤝 Contributing](#-contributing)
-* [📄 License](#-license)
 
 ---
 
@@ -47,7 +45,6 @@ A **full-stack web application** for managing and showcasing helmet products. Bu
 * 🛍️ User-specific product & cart management
 * 🔎 Search & Filter functionality
 * 🌑 Light/Dark Theme Toggle
-* 📱 Fully Responsive Design (Mobile-first)
 
 ---
 
